@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: yellow;
+}
+
+/* Validation highlights */
+.greenBorder {
+    border: 2px solid green;
+}
+
+.redBorder {
+    border: 2px solid red;
+}

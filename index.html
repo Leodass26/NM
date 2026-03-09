@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>College Workshop Registration</h2>
+    <p>Sign up for our upcoming technical seminar.</p>
+
+    <div class="info">
+        <p>Date: 15-03-2026</p>
+        <p>Venue: Leo Indoor stadium</p>
+    </div>
+    <form id="regForm">
+        <fieldset>
+            <legend>Personal Info</legend>
+            Name: <input type="text" id="uName"><br><br>
+            Email: <input type="text" id="uEmail"><br><br>
+            Phone: <input type="text" id="uPhone"><br><br>
+            DOB: <input type="date" id="uDob"><br><br>
+            Gender: 
+            <input type="radio" name="g" value="Male"> Male
+            <input type="radio" name="g" value="Female"> Female
+        </fieldset>
+
+        <fieldset>
+            <legend>Event Details</legend>
+            Event: 
+            <select id="uEvent">
+                <option value="">--Select--</option>
+                <option value="Java">Java Workshop</option>
+                <option value="Python">Python Seminar</option>
+            </select><br><br>
+            Mode: 
+            <input type="radio" name="m" value="Online"> Online
+            <input type="radio" name="m" value="Offline"> Offline
+        </fieldset>
+
+        <fieldset>
+            <legend>College Info</legend>
+            College Name: <input type="text" id="clgStud">
+        </fieldset>
+
+        <p>
+            <input type="checkbox" id="uConfirm"> I confirm all details are correct.
+        </p>
+
+        <div id="statusMsg"></div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h3>Registered Students</h3>
+    <table id="pTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Event</th>
+                <th>Mode</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <footer style="margin-top: 50px;">
+        <p>Contact: student@college.edu | 9444412345</p>
+        <p>Copyright 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
